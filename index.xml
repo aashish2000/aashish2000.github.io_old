@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aashish&#39;s Portfolio on Aashish&#39;s Portfolio</title>
+    <link>/</link>
+    <description>Recent content in Aashish&#39;s Portfolio on Aashish&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;h2 id=&#34;who-am-i-&#34;&gt;Who am I ?&lt;/h2&gt;
+&lt;p&gt;Welcome to my site! I&amp;rsquo;m a final year undergrad doing my BE in Computer Science from SSN College of Engineering, Chennai. My primary field of interest is Artifical Intelligence with focus on areas such as Deep Learning, Computer Vision and NLP. I also enjoy the sport of Competitive Programming by participating in challenges such as the Google Foo.bar Challenge. I&amp;rsquo;m currently working on projects in the domains of Deep Learning based Fingerprint Recognition and Real Time Visual Navigation on Edge Devices. I&amp;rsquo;m always looking to meet and talk to people working in the areas of my interest so if you would like to work with me or get to know me better, drop me an email or ping me on LinkedIn 😄&lt;/p&gt;
+&lt;h2 id=&#34;my-skills&#34;&gt;My Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Programming Languages&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ML/DL Tools&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenCV&lt;/li&gt;
+&lt;li&gt;TensorFlow&lt;/li&gt;
+&lt;li&gt;PyTorch&lt;/li&gt;
+&lt;li&gt;Scikit-Learn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Web Development&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;FastAPI&lt;/li&gt;
+&lt;li&gt;HTML/CSS&lt;/li&gt;
+&lt;li&gt;NodeJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;App Development&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Flutter&lt;/li&gt;
+&lt;li&gt;Android App Development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

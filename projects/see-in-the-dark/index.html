@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  
+  
+  
+  
+  
+  
+  <link rel="next" href="/projects/i-nethra/" />
+  <link rel="canonical" href="/projects/see-in-the-dark/" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           See In the Dark | Aashish&#39;s Portfolio
+       
+  </title>
+  <meta name="title" content="See In the Dark | Aashish&#39;s Portfolio">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="See In the Dark"/>
+<meta name="twitter:description" content="This project focuses on Low Light Photo Enhancement Using Simplified Fully Convolutional Neural Networks. This was attempted to produce a memory efficient model that can effectively run on edge devices and deliver an optimum level of image enhancement and noise reduction. The Neural Network model architecture is written in PyTorch and the application is deployed using Flask. The model was trained on the Sony_gt Dataset which is a subset of the Sony dataset containing images of varying exposures."/>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "See In the Dark",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "\/projects\/see-in-the-dark\/"
+  },
+  
+  "genre": "projects",
+  
+  "wordcount":  179 ,
+  "url": "\/projects\/see-in-the-dark\/",
+  
+  
+  
+  
+  "author": {
+    "@type": "Person",
+    "name": "Aashish Anantha Ramakrishan"
+  },
+  "description": ""
+}
+</script>
+</head>
+
+  
+
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="https://aashish2000.github.io">Aashish&#39;s Portfolio</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+                <a class="menu-item" href="/projects/" title="">Projects</a>
+                
+                
+                <a href="https://drive.google.com/file/d/1kdinTann6rt7hdcoTO4a-rDSzh2B1G8D/view">Resume</a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  
+                
+                </a>&nbsp;<a href="https://aashish2000.github.io">Aashish&#39;s Portfolio</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/about" title="">About</a>
+                
+                <a class="menu-item" href="/projects/" title="">Projects</a>
+                
+                <a href="https://drive.google.com/file/d/1kdinTann6rt7hdcoTO4a-rDSzh2B1G8D/view">Resume</a>
+        </div>
+    </div>
+</nav>
+
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">See In the Dark</h1>
+        
+    </header>
+    <div class="post-content" style="font-size: 12.5pt; text-align: justify;">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>This project focuses on Low Light Photo Enhancement Using Simplified Fully Convolutional Neural Networks. This was attempted to produce a memory efficient model that can effectively run on edge devices and deliver an optimum level of image enhancement and noise reduction.
+<br><br>
+<figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/home-page.png" alt="Upload" class="lazyload"><figcaption class="image-caption">Upload</figcaption></figure></p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/results.png" alt="Brightened Image" class="lazyload"><figcaption class="image-caption">Brightened Image</figcaption></figure></p>
+<p>The Neural Network model architecture is written in PyTorch and the application is deployed using Flask. The model was trained on the <a href="https://drive.google.com/drive/folders/1vlUte4X_qKUtm-D61eXuoJGSl2crsOCc?usp=sharing">Sony_gt Dataset</a> which is a subset of the Sony dataset containing images of varying exposures.
+<br><br>
+The model implemented in this project is an adaptation from the paper &ldquo;Chen Chen, Qifeng Chen, Jia Xu, and Vladlen Koltun, &ldquo;Learning to See in the Dark&rdquo;, in CVPR, 2018.&rdquo; We were able to reduce the number of layers and retrain the model in such a way the RAM overhead of the model was reduced while having an acceptable trade-off in terms of accuracy. Model Inference times were also significantly reduced.
+<br><br>
+This project was done as a part of The MLH Local Hack Day 2019
+<br><br></p>
+<h2 id="packages-used">Packages Used</h2>
+<ul>
+<li>PyTorch</li>
+<li>Flask</li>
+<li>requests</li>
+<li>numpy
+<br><br>
+To check out the source code in Github, click <a href="https://github.com/aashish2000/SeeInDark">here</a>.
+<br><br></li>
+</ul>
+
+    </div>
+
+    
+
+    <div class="post-nav">
+         
+        
+        <a href="/projects/i-nethra/" class="next" rel="next" title="I-Nethra: An IOT based Smart Home Security System">I-Nethra: An IOT based Smart Home Security System&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+          
+
+ 
+
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020</span>
+        
+         
+            <span class="author" itemprop="copyrightHolder"><a href="">Aashish Anantha Ramakrishan</a> </span>
+         
+
+		  
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

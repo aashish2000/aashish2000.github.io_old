@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on Aashish&#39;s Portfolio</title>
+    <link>/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on Aashish&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>See-Do-Ku: Playing Sudoku with Computer Vision</title>
+      <link>/projects/seedoku/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/seedoku/</guid>
+      <description>A Computer Vision based interactive Sudoku Game using Hand Detection and Tracking for moving numbers across the frame. This project opens a game of sudoku on the screen and allows you to move the numbers to their appropriate location using your hands. The location of your hand is tracked in real time through your webcam feed. You will be able to move the pointer, pick up numbers and drop them in their respective places without needing a mouse or keyboard.</description>
+    </item>
+    
+    <item>
+      <title>I-Nethra: An IOT based Smart Home Security System</title>
+      <link>/projects/i-nethra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/i-nethra/</guid>
+      <description>Developed as a SSN Innovation Centre funded research project, I-Nethra is aimed at bringing quality Home Surveillance at low costs to make it more accesible to the masses. The IoT based Home Security System uses Face Recognition for biometric authorization and is deployed on a Raspberry Pi. An electromagnetic lock controlled through a relay setup by the Raspberry Pi is used for locking and unlocking the door. A Raspberry Pi Camera V2 is used as the main camera module paired with a LCD display for interacting with people at the door.</description>
+    </item>
+    
+    <item>
+      <title>See In the Dark</title>
+      <link>/projects/see-in-the-dark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/see-in-the-dark/</guid>
+      <description>This project focuses on Low Light Photo Enhancement Using Simplified Fully Convolutional Neural Networks. This was attempted to produce a memory efficient model that can effectively run on edge devices and deliver an optimum level of image enhancement and noise reduction. The Neural Network model architecture is written in PyTorch and the application is deployed using Flask. The model was trained on the Sony_gt Dataset which is a subset of the Sony dataset containing images of varying exposures.</description>
+    </item>
+    
+  </channel>
+</rss>
