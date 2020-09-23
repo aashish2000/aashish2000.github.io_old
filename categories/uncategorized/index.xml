@@ -40,7 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/traffic-violation-detection/</guid>
-      <description>This project is aimed at detecting traffic violations as they happen and notifying the appropriate authorities automatically. The violations are detected from real time surveillance camera feed. When a violation is identified, the numberplate of the violating vehicle is captured and the violation details such as location, time and numberplate of violator&amp;rsquo;s vehicle is sent to a real-time Firebase Database. A mobile app is also developed to provide notifications to the officials in charge to take appropriate action.</description>
+      <description>This project is aimed at detecting traffic violations as they happen and notifying the appropriate authorities automatically. The violations are detected from a real time surveillance camera feed. When a violation is identified, the numberplate of the violating vehicle is captured and the violation details such as location, time and numberplate of violator&amp;rsquo;s vehicle is sent to a real-time Firebase Database. A mobile app is also developed to provide notifications to the officials in charge to take appropriate action.</description>
     </item>
     
   </channel>
