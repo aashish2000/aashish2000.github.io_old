@@ -121,4 +121,16 @@
       
     </url>
   
+    <url>
+      <loc>/projects/traffic-violation-detection/</loc>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
 </urlset>

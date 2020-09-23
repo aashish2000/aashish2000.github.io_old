@@ -13,7 +13,7 @@
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/projects/seedoku/</guid>
-      <description>A Computer Vision based interactive Sudoku Game using Hand Detection and Tracking for moving numbers across the frame. This project opens a game of sudoku on the screen and allows you to move the numbers to their appropriate location using your hands. The location of your hand is tracked in real time through your webcam feed. You will be able to move the pointer, pick up numbers and drop them in their respective places without needing a mouse or keyboard.</description>
+      <description>Seedoku is a Computer Vision based interactive Sudoku Game using Hand Detection and Tracking for moving numbers across the frame. This project opens a game of sudoku on the screen and allows you to move the numbers to their appropriate location using your hands. The location of your hand is tracked in real time through your webcam feed. You will be able to move the pointer, pick up numbers and drop them in their respective places without needing a mouse or keyboard.</description>
     </item>
     
     <item>
@@ -32,6 +32,15 @@
       
       <guid>/projects/see-in-the-dark/</guid>
       <description>This project focuses on Low Light Photo Enhancement Using Simplified Fully Convolutional Neural Networks. This was attempted to produce a memory efficient model that can effectively run on edge devices and deliver an optimum level of image enhancement and noise reduction. The Neural Network model architecture is written in PyTorch and the application is deployed using Flask. The model was trained on the Sony_gt Dataset which is a subset of the Sony dataset containing images of varying exposures.</description>
+    </item>
+    
+    <item>
+      <title>Traffic Violation Detection using Surveillance Footage</title>
+      <link>/projects/traffic-violation-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/traffic-violation-detection/</guid>
+      <description>This project is aimed at detecting traffic violations as they happen and notifying the appropriate authorities automatically. The violations are detected from real time surveillance camera feed. When a violation is identified, the numberplate of the violating vehicle is captured and the violation details such as location, time and numberplate of violator&amp;rsquo;s vehicle is sent to a real-time Firebase Database. A mobile app is also developed to provide notifications to the officials in charge to take appropriate action.</description>
     </item>
     
   </channel>

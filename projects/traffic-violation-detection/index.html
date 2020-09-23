@@ -11,9 +11,9 @@
   
   
   
-  <link rel="prev" href="/projects/i-nethra/" />
   
-  <link rel="canonical" href="/projects/seedoku/" />
+  <link rel="next" href="/projects/see-in-the-dark/" />
+  <link rel="canonical" href="/projects/traffic-violation-detection/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,10 +25,10 @@
   <title>
        
        
-           See-Do-Ku: Playing Sudoku with Computer Vision | Aashish&#39;s Portfolio
+           Traffic Violation Detection using Surveillance Footage | Aashish&#39;s Portfolio
        
   </title>
-  <meta name="title" content="See-Do-Ku: Playing Sudoku with Computer Vision | Aashish&#39;s Portfolio">
+  <meta name="title" content="Traffic Violation Detection using Surveillance Footage | Aashish&#39;s Portfolio">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -36,25 +36,25 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="See-Do-Ku: Playing Sudoku with Computer Vision"/>
-<meta name="twitter:description" content="Seedoku is a Computer Vision based interactive Sudoku Game using Hand Detection and Tracking for moving numbers across the frame. This project opens a game of sudoku on the screen and allows you to move the numbers to their appropriate location using your hands. The location of your hand is tracked in real time through your webcam feed. You will be able to move the pointer, pick up numbers and drop them in their respective places without needing a mouse or keyboard."/>
+<meta name="twitter:title" content="Traffic Violation Detection using Surveillance Footage"/>
+<meta name="twitter:description" content="This project is aimed at detecting traffic violations as they happen and notifying the appropriate authorities automatically. The violations are detected from real time surveillance camera feed. When a violation is identified, the numberplate of the violating vehicle is captured and the violation details such as location, time and numberplate of violator&rsquo;s vehicle is sent to a real-time Firebase Database. A mobile app is also developed to provide notifications to the officials in charge to take appropriate action."/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "See-Do-Ku: Playing Sudoku with Computer Vision",
+  "headline": "Traffic Violation Detection using Surveillance Footage",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "\/projects\/seedoku\/"
+    "@id": "\/projects\/traffic-violation-detection\/"
   },
   
   "genre": "projects",
   
-  "wordcount":  275 ,
-  "url": "\/projects\/seedoku\/",
-  "datePublished": "2020-09-11T00:00:00\u002b00:00",
-  "dateModified": "2020-09-11T00:00:00\u002b00:00",
+  "wordcount":  180 ,
+  "url": "\/projects\/traffic-violation-detection\/",
+  
+  
   
   
   "author": {
@@ -117,12 +117,14 @@
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">See-Do-Ku: Playing Sudoku with Computer Vision</h1>
+        <h1 class="post-title">Traffic Violation Detection using Surveillance Footage</h1>
         
     </header>
     <div class="post-content" style="font-size: 12.5pt; text-align: justify;">
         
 
+        
+            
         
 
         
@@ -136,27 +138,17 @@
           
           
 
-          <p>Seedoku is a Computer Vision based interactive Sudoku Game using Hand Detection and Tracking for moving numbers across the frame. This project opens a game of sudoku on the screen and allows you to move the numbers to their appropriate location using your hands. The location of your hand is tracked in real time through your webcam feed. You will be able to move the pointer, pick up numbers and drop them in their respective places without needing a mouse or keyboard.
+          <p>This project is aimed at detecting traffic violations as they happen and notifying the appropriate authorities automatically. The violations are detected from real time surveillance camera feed. When a violation is identified, the numberplate of the violating vehicle is captured and the violation details such as location, time and numberplate of violator&rsquo;s vehicle is sent to a real-time Firebase Database. A mobile app is also developed to provide notifications to the officials in charge to take appropriate action. Provision has been provided to send emails to the violator&rsquo;s email ID with the fine details to be paid.</p>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/structure.PNG" alt="Implementation Diagram" class="lazyload"><figcaption class="image-caption">Implementation Diagram</figcaption></figure>
 <br><br>
-For selecting a number, keep your pointer on a number and bring it closer. Once your hand gets close enough, the color of the cursor changes and the number gets selected. Similarly for dropping a number in its appropriate place, bring your hand closer with your pointer at the intended location. To move numbers around the screen without selecting and dropping, bring your hand farther away from the screen and move the pointer wherever you want.
-<br><br>
-The area of the bounding boxes of your hand increases as the hand comes closer to the camera and vice versa when you pull you hand farther away. This gives the select and drop functionality.
-<br><br>
-<video width=100% autoplay loop>
-    <source src="/images/seedoku-demo.mp4" type="video/mp4">
-  </video></p>
-<p>The Hand Tracking functionality is achieved through a SSD based Hand Position detector. This detector was adapted from the open source Mediapipe Framework by Google Research. This model is based on TFLite, and is capable of performing Hand Detection at around 30fps on modern Edge Devices.
-<br><br>
-The game is available as a CLI utility distributed via PyPi.</p>
-<p>To install and run the game:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">pip install seedoku
-seedoku
-</code></pre></div><h2 id="packages-used">Packages Used</h2>
+The traffic Violations handled by this project are Overspeeding and Red Light Violation. The numberplate recognition is performed by modifying and fine tuning the open source implementation of OpenALPR to work better on Indian Numberplates. This project was presented to the ACP Traffic Police, Greater Chennai Traffic Corporation for furthen development and collaboration. The project was originally developed as a part of The Smart India Hackathon 2020 Edition.</p>
+<h2 id="packages-used">Packages Used</h2>
 <ul>
-<li>TensorFlow 2</li>
-<li>OpenCV
+<li>Dlib</li>
+<li>OpenCV</li>
+<li>Pyrebase
 <br><br>
-To check out the source code in Github, click <a href="https://github.com/aashish2000/SeeInDark">here</a>.
+To check out the source code in Github, click <a href="https://github.com/aashish2000/Traffic-Violation-Detection">here</a>.
 <br><br></li>
 </ul>
 
@@ -165,9 +157,9 @@ To check out the source code in Github, click <a href="https://github.com/aashis
     
 
     <div class="post-nav">
-        
-        <a href="/projects/i-nethra/" class="prev" rel="prev" title="I-Nethra: An IOT based Smart Home Security System"><i class="iconfont icon-dajiantou"></i>&nbsp;I-Nethra: An IOT based Smart Home Security System</a>
          
+        
+        <a href="/projects/see-in-the-dark/" class="next" rel="next" title="See In the Dark">See In the Dark&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         
     </div>
 
@@ -208,8 +200,9 @@ To check out the source code in Github, click <a href="https://github.com/aashis
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
