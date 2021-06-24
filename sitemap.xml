@@ -2,7 +2,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>/</loc>
+      <loc>/about/</loc>
       
       <lastmod>2020-09-19T00:00:00+00:00</lastmod>
       
@@ -16,9 +16,9 @@
     </url>
   
     <url>
-      <loc>/about/</loc>
+      <loc>/</loc>
       
-      <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+      <lastmod>2020-09-11T00:00:00+00:00</lastmod>
       
       
       <changefreq>monthly</changefreq>
